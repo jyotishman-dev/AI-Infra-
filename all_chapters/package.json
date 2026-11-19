@@ -7,7 +7,8 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "dev": "nodemon  --exec tsx  index.ts"
+    "dev": "nodemon  --exec tsx  index.ts",
+    "embed" : "nodemon  --exec tsx ai/ebeddings.ts"
   },
   "peerDependencies": {
     "typescript": "^7"

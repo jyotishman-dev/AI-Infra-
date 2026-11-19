@@ -24,7 +24,7 @@ if (!apiKey) {
   throw new Error("GEMINI_API_KEY is missing");
 }
 
-const ai = new GoogleGenAI({ apiKey });
+export const ai = new GoogleGenAI({ apiKey });
 
 
 const jsonSchema = z.toJSONSchema(UserProfileSchema);
